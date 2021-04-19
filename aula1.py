@@ -1,1 +1,6 @@
-print('Hello World!')
+nome=input('Digite seu Nome: ')
+print('Olá',nome, 'Você é benvindo!!Preciso de informações para calcular seu IMC, utilize PONTO e não vírgula')
+peso=float(input('Qual seu Peso? '))
+altura=float(input('Qual sua altura? '))
+print(peso/(altura*altura))
+print('Uauuu!!', nome, 'Seu ICM não está mau')
