@@ -3,5 +3,5 @@ print('Olá',nome, 'Você é benvindo!! \nPreciso de informações para calcular
 peso=float(input('  Qual seu Peso? \n'))
 altura=float(input('  Qual sua altura?\n'))
 resultado=(peso/(altura*altura))
-print()
-print('Uauuu!! {} Seu ICM é: {}, nada mau'.format(nome, resultado))
+print('{:.2f}'.format(resultado))
+print('Uauuu!! {} Seu ICM é: {:.2f}, nada mau'.format(nome, resultado))
