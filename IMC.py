@@ -39,8 +39,7 @@ if (tabela == "S"):
           '35 < 40      = Obesidade Grau 2 (severa)\n'
           '>= 40        = Obesidade Grau 3 (mórbida)\n'
           '     \n'
-
-                    'Obrigado por Participar!!!')
+                    '        Obrigado por Participar!!!')
 
 else:
     print('Agradecemos sua participação')
