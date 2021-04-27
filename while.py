@@ -1,6 +1,8 @@
+# **** tentaiva e acertos de um numero.
+
 nome = input('Qual seu Nome? \n')
 print(f'{nome}, Agradecemos sua Participação!!')
-print(f'{nome}, Tente acertar o número secreto')
+print(f'    {nome}, Tente acertar o número secreto')
 numero = 12
 tentativas = 3
 rodadas = 1
@@ -13,12 +15,13 @@ while(rodadas <= tentativas):
     menor = chute < numero
 
     if(acertou):
-        print('Parabéns, Você acertou.')
+        print('     Parabéns, Você acertou.\n')
         break
     elif(maior):
-        print('opsss, deu ruim, este número é maior')
+        print('     Ooopsss, deu ruim, este número é maior\n')
     elif(menor):
-        print('hummm, este número é menor')
+        print('     Hhummm, este número é menor\n')
     rodadas = rodadas + 1
     #tentativas = tentativas - 1
+input(f'{nome}, digite ENTER para sair.')
 
