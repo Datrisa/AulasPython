@@ -1,4 +1,4 @@
-# **** tentaiva e acertos de um numero.
+# **** tentativa e acertos de um numero.
 
 nome = input('Qual seu Nome? \n')
 print(f'{nome}, Agradecemos sua Participação!!')
@@ -24,4 +24,3 @@ while(rodadas <= tentativas):
     rodadas = rodadas + 1
     #tentativas = tentativas - 1
 input(f'{nome}, digite ENTER para sair.')
-
