@@ -1,4 +1,7 @@
         # Calculo de IMC - Indice de Massa Corporal com tabela básica
+import locale
+loc = locale.getlocale()
+locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
 nome=input('Digite seu Nome:\n ').upper()
 print('Olá',nome, 'Você é benvindo!! \nPreciso de informações para calcular seu IMC,\nPor favor utilize PONTO e não vírgula')
 peso=float(input('  Qual seu Peso? \n'))
